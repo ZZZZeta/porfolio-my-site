@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 import mainLogo from '../../img/logo.png';
 
@@ -18,7 +19,9 @@ const Logo = () => {
 
     return ( 
         <LogoWrapper>
-            <StyledImg src={mainLogo} />
+            <NavLink exact to='/'>
+                <StyledImg src={mainLogo} />
+            </NavLink> 
         </LogoWrapper>
      );
 }
