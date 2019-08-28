@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import styled from 'styled-components';
+import { Route, BrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from './components/common/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+
+const AppWrapper = styled.div`
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #ebebe3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+`;
+
+class App extends Component {
+    
+    render() { 
+        return ( 
+            <BrowserRouter>
+                <AppWrapper>
+                    <Navbar/>
+                    <Route exact path='/' component={Home}/>
+                    <Route path='/about' component={About} />
+                    <Route path='/portfolio' component={Portfolio} />
+                </AppWrapper>
+            </BrowserRouter>
+         );
+    }
 }
-
+ 
 export default App;
