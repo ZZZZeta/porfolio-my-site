@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
+import closeButton from '../../img/close-button.svg';
+
 const Wrapper = styled.div`
     width: 30rem;
     height: 100vh;
@@ -45,15 +47,24 @@ const StyledNavLink = styled(NavLink)`
   }
 `;
 
+const StyledImg = styled.img`
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+`;
 
-const SideBar = () => {
+
+const SideBar = ({ toogleMenu }) => {
 
     return ( 
         <Wrapper>
+            <StyledImg src={closeButton} onClick={toogleMenu} />
             <Ul>
-                <Li><StyledNavLink exact to='/' activeClassName='active'>Home</StyledNavLink></Li>
-                <Li><StyledNavLink exact to='/about' activeClassName='active'>About me</StyledNavLink></Li>
-                <Li><StyledNavLink exact to='/portfolio' activeClassName='active'>Portfolio</StyledNavLink></Li>
+                <Li><StyledNavLink exact to='/' activeClassName='active' onClick={toogleMenu}>Home</StyledNavLink></Li>
+                <Li><StyledNavLink exact to='/about' activeClassName='active' onClick={toogleMenu}>About me</StyledNavLink></Li>
+                <Li><StyledNavLink exact to='/portfolio' activeClassName='active' onClick={toogleMenu}>Portfolio</StyledNavLink></Li>
             </Ul>
         </Wrapper>
      );
