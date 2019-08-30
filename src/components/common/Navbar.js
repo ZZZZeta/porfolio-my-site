@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Logo from './Logo';
 import NavItems from './NavItems';
-import Hamburger from './Hamburger';
+import SideBar from './SideBar';
 
 
 const NavbarWrapper = styled.div`
@@ -35,7 +35,7 @@ class Navbar extends Component {
               <Nav>
                 <Logo />
                 <NavItems />
-                <Hamburger />
+                <SideBar />
               </Nav>
             </NavbarWrapper>
          );
