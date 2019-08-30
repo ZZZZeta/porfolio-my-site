@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const ButtonWrapper = styled.div`
     width: 100%;
+    max-width: 37rem;
     height: 100%;
     display: flex;
     justify-content: flex-start;
