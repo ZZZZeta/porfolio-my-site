@@ -5,20 +5,19 @@ import SideBar from './SideBar';
 import burgerIcon from '../../img/burger-menu.svg';
 
 const BurgMenuWrapper = styled.div`
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        display: flex;
+    }
 `;
 
 const BurgerMenuImg = styled.img`
     width: 2rem;
     height: 2rem;
-    display: none;
-
-    @media ${props => props.theme.mediaQueries.medium} {
-    display: flex;
-    }
 `;
 
 class BurgerMenu extends Component {
