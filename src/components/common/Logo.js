@@ -8,6 +8,7 @@ const LogoWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1rem;
 `;
 
 const StyledImg = styled.img`
