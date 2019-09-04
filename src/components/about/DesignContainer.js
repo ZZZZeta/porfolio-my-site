@@ -5,7 +5,6 @@ import DesignText from './DesignText';
 
 const Wrapper = styled.div`
     width: 100%;
-    height: 20rem;
     display: flex;
     justify-content: center;
     margin: 5rem auto;
