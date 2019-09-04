@@ -8,7 +8,7 @@ const BurgMenuWrapper = styled.div`
     display: none;
     justify-content: center;
     align-items: center;
-    margin-right: 1rem;
+    margin-right: 2rem;
 
     @media ${props => props.theme.mediaQueries.medium} {
         display: flex;

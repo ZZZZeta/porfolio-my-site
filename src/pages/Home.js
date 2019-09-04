@@ -10,6 +10,10 @@ const HomeWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        height: 100vh;
+    }
 `;
 
 

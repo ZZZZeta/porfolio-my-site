@@ -12,6 +12,10 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        max-width: 90%;
+    }
 `;
 
 class Container extends Component {
