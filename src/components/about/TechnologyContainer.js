@@ -5,10 +5,13 @@ import TechnologyText from './TechnologyText';
 
 const Wrapper = styled.div`
     width: 100%;
-    height: 20rem;
     display: flex;
     justify-content: center;
     margin: 5rem auto;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        flex-direction: column;
+    }
 `;
 
 class TechnologyContainer extends Component {

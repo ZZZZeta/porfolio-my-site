@@ -4,7 +4,6 @@ import Container from '../components/about/Container';
 
 const AboutWrapper = styled.div`
     width: 100%;
-    height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;

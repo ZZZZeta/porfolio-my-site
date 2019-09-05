@@ -21,7 +21,7 @@ const StyledTitle = styled.h3`
 
     @media ${props => props.theme.mediaQueries.medium} {
         font-size: 1.6rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 `;
 

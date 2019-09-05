@@ -6,6 +6,12 @@ const TextWrapper = styled.div`
     max-width: 30%;
     height: 100%;
     margin-left: 2rem;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        margin-left: 0rem;
+        width: 100%;
+        max-width: 100%;
+    }
 `;
 
 const StyledTitle = styled.h3`
@@ -13,6 +19,11 @@ const StyledTitle = styled.h3`
     font-weight: 600;
     letter-spacing: 0.04em;
     color: #4a4a48;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
 `;
 
 const StyledText = styled.p`
@@ -21,6 +32,11 @@ const StyledText = styled.p`
     letter-spacing: 0.04em;
     color: #4a4a48;
     margin-top: 2.5rem;
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
 `;
 
 const TechnologyText = () => {
