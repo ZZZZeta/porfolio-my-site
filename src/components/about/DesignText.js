@@ -42,7 +42,7 @@ const DesignText= () => {
 
     return ( 
         <TextWrapper>
-            <StyledTitle>I can design things.</StyledTitle>
+            <StyledTitle>I can design things</StyledTitle>
             <StyledText>
                 As a web-developer, I am making a visual presentation of the product.
                 I want to keep it simple, nice looking and follow common design trends. 

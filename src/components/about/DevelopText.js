@@ -44,7 +44,7 @@ const DevelopText = () => {
     return ( 
         <TextWrapper>
             <StyledTitle>
-                I can develop things.
+                I can develop things
             </StyledTitle>
             <StyledText>
                 I'm a developer, so I know how to create website to run across devices using the latest technologies available.

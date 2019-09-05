@@ -28,7 +28,7 @@ const Title = () => {
     return ( 
         <TitleWrapper>
             <StyledTitle>
-                What I can do.
+                What I can do
             </StyledTitle>
         </TitleWrapper>
      );
