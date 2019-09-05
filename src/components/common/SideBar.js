@@ -5,15 +5,29 @@ import { NavLink } from 'react-router-dom';
 import closeButton from '../../img/close-button.svg';
 
 const Wrapper = styled.div`
-    width: 30rem;
-    height: 100vh;
-    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
     top: 0px;
     right: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #c19898;
+    animation: slideFromRight .4s;
+
+    @keyframes slideFromRight {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
 `;
 
 const Ul = styled.ul`
@@ -48,15 +62,15 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 const StyledImg = styled.img`
-    width: 2rem;
-    height: 2rem;
+    width: 1.7rem;
+    height: 1.7rem;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 2rem;
+    right: 2rem;
 `;
 
 
-const SideBar = ({ toogleMenu }) => {
+const SideBar = ({ toogleMenu}) => {
 
     return ( 
         <Wrapper>
