@@ -12,7 +12,7 @@ class Container extends Component {
     render() { 
         return ( 
             <Wrapper>
-                
+                There is nothing to show now :)
             </Wrapper>
          );
     }
