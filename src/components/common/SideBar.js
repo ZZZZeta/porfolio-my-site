@@ -31,9 +31,11 @@ const Wrapper = styled.div`
 `;
 
 const Ul = styled.ul`
+  width: 100%;
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 const Li = styled.li`
@@ -43,21 +45,21 @@ const Li = styled.li`
 const StyledNavLink = styled(NavLink)`
   width: 10rem;
   text-align: center;
-  color: #4a4a48;
+  color: black;
   text-decoration: none;
   padding: 8px; 
   display: block;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.04em;
   transition-duration: .1s;
 
   &:hover {
-    border-bottom: 2px solid #c19898;
+    border-left: 2px solid white;
   }
 
   &.active {
-    border-bottom: 2px solid #c19898;
+    border-left: 2px solid white;
   }
 `;
 
