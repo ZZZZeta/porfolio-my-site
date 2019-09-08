@@ -13,7 +13,7 @@ const ImageWrapper = styled.div`
 
     @media ${props => props.theme.mediaQueries.medium} {
         width: 100%;
-        max-width: 100%;
+        max-width: 37rem;
     }
 `;
 

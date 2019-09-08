@@ -28,6 +28,7 @@ const StyledButton = styled.button`
     @media ${props => props.theme.mediaQueries.medium} {
         font-size: 1.2rem;
         font-weight: 500;
+        margin-bottom: 2.5rem;
     }
 
     &:hover {

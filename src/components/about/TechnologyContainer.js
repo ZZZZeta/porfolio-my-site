@@ -11,6 +11,7 @@ const Wrapper = styled.div`
 
     @media ${props => props.theme.mediaQueries.medium} {
         flex-direction: column;
+        align-items: center;
     }
 `;
 
