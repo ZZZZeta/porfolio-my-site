@@ -12,6 +12,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: fadein .5s;
 
     @media ${props => props.theme.mediaQueries.medium} {
         max-width: 90%;
