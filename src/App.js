@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/common/Navbar';
 import Home from './pages/Home';
@@ -21,14 +21,14 @@ class App extends Component {
     
     render() { 
         return ( 
-            <BrowserRouter>
+            <Switch>
                 <AppWrapper>
                     <Navbar/>
                     <Route exact path='/' component={Home}/>
                     <Route path='/about' component={About} />
                     <Route path='/portfolio' component={Portfolio} />
                 </AppWrapper>
-            </BrowserRouter>
+            </Switch>
          );
     }
 }
