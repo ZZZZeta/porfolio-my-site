@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/porfolio-my-site/static/js/main.bec6edc5.chunk.js",
+    "main.js.map": "/porfolio-my-site/static/js/main.bec6edc5.chunk.js.map",
+    "runtime~main.js": "/porfolio-my-site/static/js/runtime~main.cc6f7630.js",
+    "runtime~main.js.map": "/porfolio-my-site/static/js/runtime~main.cc6f7630.js.map",
+    "static/js/2.0c734d74.chunk.js": "/porfolio-my-site/static/js/2.0c734d74.chunk.js",
+    "static/js/2.0c734d74.chunk.js.map": "/porfolio-my-site/static/js/2.0c734d74.chunk.js.map",
+    "index.html": "/porfolio-my-site/index.html",
+    "precache-manifest.38b9fdf54f497eb6f3a17e1092364147.js": "/porfolio-my-site/precache-manifest.38b9fdf54f497eb6f3a17e1092364147.js",
+    "service-worker.js": "/porfolio-my-site/service-worker.js",
+    "static/media/burger-menu.svg": "/porfolio-my-site/static/media/burger-menu.710589d4.svg",
+    "static/media/close-button.svg": "/porfolio-my-site/static/media/close-button.aeec2863.svg",
+    "static/media/design.svg": "/porfolio-my-site/static/media/design.4e668285.svg",
+    "static/media/developer.svg": "/porfolio-my-site/static/media/developer.583b16eb.svg",
+    "static/media/main.svg": "/porfolio-my-site/static/media/main.87660ce7.svg",
+    "static/media/technology.svg": "/porfolio-my-site/static/media/technology.5ad535bf.svg"
+  }
+}
